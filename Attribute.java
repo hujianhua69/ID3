@@ -1,23 +1,23 @@
 public class Attribute {
-	//ÊôĞÔÀà
-	//¹¹Ôìº¯Êı1
-	public Attribute(String attributeName,   //ÊôĞÔÃû
-			         boolean isContinuous,   //ÊÇ·ñÁ¬ĞøÊôĞÔ
-			         boolean isIgnored,      //ÊÇ·ñºöÊÓ
-			         Object attributeValue)  //ÊôĞÔÖµ¶ÔÏó  
+	//å±æ€§ç±»
+	//æ„é€ å‡½æ•°1
+	public Attribute(String attributeName,   //å±æ€§å
+			         boolean isContinuous,   //æ˜¯å¦è¿ç»­å±æ€§
+			         boolean isIgnored,      //æ˜¯å¦å¿½è§†
+			         Object attributeValue)  //å±æ€§å€¼å¯¹è±¡  
 	{
 		this.attributeName = attributeName;
 		this.isContinuous = isContinuous;
 		this.isIgnored = isIgnored;
 		this.attributeValue = attributeValue;
 	}
-	//¹¹Ôìº¯Êı2
+	//æ„é€ å‡½æ•°2
 	public Attribute(String attributeName, 
 			boolean isContinuous, 
 			boolean isIgnored, 
 			Number attributeValue, 
-			Number lowerValue, 
-			Number upperValue
+			Number lowerValue, //å€¼èŒƒå›´ï¼Œæœ€å°å€¼
+			Number upperValue   //å€¼èŒƒå›´ï¼Œæœ€å¤§å€¼
 			)
 	{
 		this.attributeName = attributeName;
